@@ -1,8 +1,9 @@
-# React + Vite
+# Mono's Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Join me as I explore strange lands, meet incredible creatures, and face unexpected challenges. Come along, have some fun, and dive into my story as we journey together!
 
-Currently, two official plugins are available:
+🚀 [Live Site : https://mono-adventure.netlify.app/](https://mono-adventure.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![mono's website view](https://imgur.com/hVrzFk9.png)
+
+**Thanks for checking out the project! i hope you have as much fun exploring it as i did creating it. If you’re interested in joining us for future projects or just want to hang out, feel free to join our Discord server. This project was part of a developing jam where the members built a website dedicated to another member. We’d love to have you join us next time!**
