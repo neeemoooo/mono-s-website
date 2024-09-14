@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+
+  body {
+    cursor: url('./assets/icons/baguette-icon.svg'), auto;
+    @apply font-mainFont min-h-[100vh]
+  }
+}
+
+@layer components {
+  .links {
+    @apply py-2 px-4 flex gap-x-2 rounded-md order-3 h-max text-white text-base capitalize
+  }
+
+  .links--discord {
+    order:1;
+    background-color:#3F72F6;
+  }
+
+  .links--instagram {
+    order:2;
+    background:linear-gradient(to left,#833AB4 0%,#FD1D1D 54%,#FCB045 100%);
+  }
+}
+
+@layer utilities {
+  .main-bg {
+    background:linear-gradient(25deg,#00308F 50%,#002244 50%);
+  }
+
+  .main-bg-reverse {
+    background:linear-gradient(-155deg,#00308F 50%,#002244 50%);
+  }
+
+  .book-bg {
+    background:linear-gradient(38deg,#1670F5 0%,#0D3E6D 65%);
+  }
+
+  .text-stroke-header {
+    -webkit-text-stroke: 4px #031343;
+  }
+
+  .text-stroke-paragraph {
+    -webkit-text-stroke: 1px #151515;
+  }
+}
